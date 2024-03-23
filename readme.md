@@ -14,8 +14,8 @@ This project is a Flask-based REST API for managing todo items. It supports user
 
 1. **Clone the repository:**
    ```bash
-   git clone [<repository-url>](https://github.com/sarthak0714/Todo-API.git)
-   cd [<repository-name>](https://github.com/sarthak0714/Todo-API.git)
+   git clone https://github.com/sarthak0714/Todo-API.git
+   cd Todo-API
    ```
 
 2. **Create and activate a virtual environment (optional):**
