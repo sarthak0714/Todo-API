@@ -2,7 +2,7 @@ import unittest
 from flask import Flask
 from models import db, User
 from todo import todo as todo_blueprint
-from app import create_app
+from index import create_app
 from config import TestConfig
 
 

@@ -3,7 +3,7 @@ from flask import Flask
 from models import db, User
 from auth import auth as auth_blueprint
 from config import TestConfig
-from app import create_app
+from index import create_app
 
 
 class AuthTestCase(unittest.TestCase):
