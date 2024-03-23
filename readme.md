@@ -155,3 +155,5 @@ python -m unittest discover ./tests/
 ```
 
 This project provides a comprehensive API for managing todo items with user authentication, making it a versatile tool for todo list applications.
+
+[Live Link (Vercel)](https://todo-api-opal.vercel.app/)
