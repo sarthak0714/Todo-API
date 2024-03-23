@@ -15,7 +15,7 @@ def create_app(config_class=config.Config):
     """Initalize a Flask app with given configurations"""
     app = Flask(__name__)
     app.config.from_object(config_class)
-    
+
     limiter = Limiter(
         util.get_remote_address,
         app=app,
@@ -42,6 +42,7 @@ def create_app(config_class=config.Config):
     return app
 
 
+app = create_app()
+
 if __name__ == "__main__":
-    app = create_app()
     app.run(debug=True)

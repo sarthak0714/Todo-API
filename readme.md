@@ -44,7 +44,7 @@ This project is a Flask-based REST API for managing todo items. It supports user
 
 6. **Run the application:**
    ```bash
-   flask run
+   python index.py
    ```
 
 ## Using the API
